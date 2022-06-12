@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>gabl</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/img/logo16.png">
+        <link rel="icon" type="image/png" sizes="80x80" href="resources/img/logo80.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="resources/img/logo160.png">
+        <style include="default"></style>
+        <style include="header"></style>
+        <style include="footer"></style>
+    </head>
+    <body>
+        <header include="header"></header>
+        <footer include="footer"></footer>
+        <stain include="stain0" if="INNER-WIDTH>=600;INNER-HEIGHT>=480"></stain>
+        <stain include="stain1" if="INNER-WIDTH>=790;INNER-HEIGHT>=540"></stain>
+        <stain include="stain2" if="INNER-WIDTH>=1500;INNER-HEIGHT>=250"></stain>
+        <script include="header"></script>
+        <script src="resources/include.js"></script><
+        <script>
+            initSystemVar();
+            loadTemplates();
+        </script>
+    </body>
+</html>

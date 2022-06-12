@@ -1,0 +1,28 @@
+#footer-container {
+    background-color: #fff;
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    align-content: center;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    clear: both;
+    border-top: 5px solid #000000;
+    z-index: 999;
+}
+
+.footer-text {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.footer-link {
+    color: #00207D;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+}

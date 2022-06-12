@@ -1,0 +1,31 @@
+#header-logo {
+    height: 100%;
+    margin-right: 2vh;
+    cursor: pointer;
+    aspect-ratio: 1;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 275%;
+    background-color: #fff;
+}
+
+.header-link {
+    font-family: "Lucida Handwriting", cursive;
+    place-self: center;
+    margin: 15px;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+#header {
+    background-color: #fffa;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    border-bottom: 5px solid black;
+    max-height: 10%;
+}
