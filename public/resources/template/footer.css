@@ -3,11 +3,11 @@
     height: fit-content;
     position: fixed;
     bottom: 0;
-    padding: 10px;
+    padding: 0.5vh;
     align-content: center;
     width: 100%;
     font-family: "Quicksand", sans-serif;
-    font-size: 18px;
+    font-size: 2vh;
     display: block;
     text-align: center;
     clear: both;
@@ -16,13 +16,13 @@
 }
 
 .footer-text {
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: .3vw;
+    margin-right: .3vw;
 }
 
 .footer-link {
     color: #00207D;
     text-decoration: none;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: .3vw;
+    margin-right: .3vw;
 }
